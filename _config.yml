@@ -1,9 +1,9 @@
 # Site settings
-title: Newyee Blog
-SEOTitle: 牜燚的博客 | Newyee Blog
+title: Newyee's Blog
+SEOTitle: 牜燚 的博客 | Ny's Blog
 header-img: img/home-bg.jpg
 email: xxx@gmail.com
-description: "关于程序与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
+description: "这里是 @Newyee 的个人博客，与你一起发现更大的世界。"
 keyword: "Newyee, Blog, 博客, Python"
 url: "https://newyee1994.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -59,7 +59,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: Newyee
 
 # Netease settings
 netease_comment: false
