@@ -68,7 +68,7 @@ netease_comment: false
 
 # Analytics settings
 # Baidu Analytics 
-# ba_track_id: [your track id]
+ba_track_id: [319b5f96e29a468b5dec363a242ca518]
 
 # Google Analytics
 # ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
@@ -79,7 +79,7 @@ netease_comment: false
 # Sidebar settings
 sidebar: true                           # 添加侧边栏 whether or not using Sidebar.
 sidebar-about-description: "Python小蜗牛就是我<br> I'm a little snail learning python"
-sidebar-avatar: /img/GitHub-avatar.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/GitHub-avatar.png      # #你的大头贴，请使用绝对地址 use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -103,8 +103,8 @@ page-mathjax: false
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
+        title: "Newyee's Blog",
+        href: "https://newyee1994.github.io/"
+    },{
     }
 ]
