@@ -4,8 +4,8 @@
 更多的自我介绍稍后奉上...
 - - - - -
 ### 这儿可撩：
-- [x] [GitHub](https://github.com/Newyee1994)
-- [x] [CSDN](https://blog.csdn.net/Newyee)
+- [GitHub](https://github.com/Newyee1994)
+- [CSDN](https://blog.csdn.net/Newyee)
 
 - - - - -
 ### 正在做的项目...

@@ -5,8 +5,8 @@ More detailed self-introduction will be presented later.
 
 - - - - -
 ### You can find me here:
-- [x] [GitHub](https://github.com/Newyee1994)
-- [x] [CSDN](https://blog.csdn.net/Newyee)
+- [GitHub](https://github.com/Newyee1994)
+- [CSDN](https://blog.csdn.net/Newyee)
 
 - - - - -
 ### Ongoing projects...
