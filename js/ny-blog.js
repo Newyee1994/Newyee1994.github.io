@@ -1,9 +1,3 @@
-/*!
- * Newyee's Blog v1.0.0 (https://newyee1994.github.io)
- * Copyright 2019 @Newyee
- * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 // Tooltip Init
 // Unuse by Newyee since V1.6: Titles now display by default so there is no need for tooltip
 // $(function() {

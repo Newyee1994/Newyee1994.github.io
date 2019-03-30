@@ -1,39 +1,42 @@
+#################################################
 # Site settings
-title: Newyee's Blog                # 博客网站标题
-SEOTitle: 牜燚 的博客 | Ny's Blog
-header-img: img/bg-home.jpg
-email: xxx@gmail.com
-description: "这里是 @Newyee 的个人博客，与你一起发现更大的世界。"
-keyword: "Newyee, Blog, 博客, Python"
-url: "https://newyee1994.github.io"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+title:          Newyee's Blog                   # 博客网站标题
+SEOTitle:       牜燚 的博客 | Ny's Blog
+header-img:     img/bg-home.jpg
+email:          Newyee163@163.com
+description:    "这里是 @Newyee 的个人博客，与你一起发现更大的世界。"
+keyword:        "Newyee, Blog, 博客, Python"
+url:            "https://newyee1994.github.io"  # your host, for absolute URL
+baseurl: ""                                     # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
 
+
+#################################################
 # SNS settings
 RSS: false
-#weibo_username:     xxx             # 微博账号，底部链接会自动更新
-#zhihu_username:     xxx
+weibo_username:     xxx                         # 微博账号，底部链接会自动更新
+zhihu_username:     xxx
 github_username:    Newyee1994
-#twitter_username:   xxx
-#facebook_username:  xxx
+twitter_username:   xxx
+facebook_username:  xxx
 #linkedin_username:  firstname-lastname-idxxxx
 
 
-
+#################################################
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
-paginate: 10                        # 一页你准备放几篇文章
+paginate: 5                                   # 一页你准备放几篇文章
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README-zh.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
 timezone: CN  
 
 
-
+#################################################
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 # make sure you have this gem installed
@@ -41,14 +44,14 @@ timezone: CN
 plugins: [jekyll-paginate]
 
 
-
+#################################################
 # Markdown settings
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  input: GFM                                    # use Github Flavored Markdown !important
   syntax_highlighter_opts:
     span:
       line_numbers: false
@@ -57,49 +60,54 @@ kramdown:
       start_line: 1
 
 
+#################################################
+# # Disqus settings
+# disqus_username: Newyee
 
-# Disqus settings
-disqus_username: Newyee
+# # Duoshuo settings
+# duoshuo_username: Newyee
+# # Share component is depend on Comment so we can NOT use share only.
+# duoshuo_share: true                           # set to false if you want to use Comment without Sharing
 
 # Netease settings
-netease_comment: false
+netease_comment: true
 
 
-
+#################################################
 # Analytics settings
 # Baidu Analytics 
-ba_track_id: [319b5f96e29a468b5dec363a242ca518]
+ba_track_id: 319b5f96e29a468b5dec363a242ca518
 
-# Google Analytics
-# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+# # Google Analytics
+# ga_track_id: 'UA-49627206-1'                  # Format: UA-xxxxxx-xx
 # ga_domain: huangxuan.me
 
 
-
+#################################################
 # Sidebar settings
-sidebar: true                           # 添加侧边栏 whether or not using Sidebar.
+sidebar: true                                   # 添加侧边栏 whether or not using Sidebar.
 sidebar-about-description: "Python小蜗牛就是我<br> I'm a little snail learning python"
-sidebar-avatar: /img/GitHub-avatar.png      # #你的大头贴，请使用绝对地址 use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/GitHub-avatar.png          # 你的大头贴，请使用绝对地址 use absolute URL, seeing it's used in both `/` and `/about/`
 
 
-
+#################################################
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-tags: true                             # whether or not using Feature-Tags
+featured-condition-size: 1                      # A tag will be featured if the size of it is more than this condition value
 
 
-
+#################################################
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
 
-
+#################################################
 # MathJax rendering for layout:page (e.g. post preview)
-page-mathjax: false
+page-mathjax: true
 
 
-
+#################################################
 # Friends
 friends: [
     {
