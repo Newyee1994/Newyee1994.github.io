@@ -20,7 +20,7 @@ tags:
 
 ![GitHub-avatar](https://newyee1994.github.io/img/GitHub-avatar.jpg)
 - - - - -
-&#8195;&#8195;该博客基于 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) 快速 Building Blog 的技术方案，非常轻松时尚。
+&#8195;&#8195;该博客基于 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) 快速 Building Blog 的技术方案，非常轻松时尚。<br/>
 &#8195;&#8195;框架是参考 [Xuan Huang](https://github.com/Huxpro) 大神提供的模板：[HuxBlog](https://github.com/Huxpro/huxblog-boilerplate)，在此表示诚挚的谢意。
 ![Python-snail-logo](https://newyee1994.github.io/img/python-snail-logo.jpg)
 - - - - -
