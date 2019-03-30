@@ -1,23 +1,19 @@
----
-title: Newyee's Blog
-layout: post
----
-# Newyee's Blog
+# 牜燚 的博客
 
-### [View Live Newyee's Blog &rarr;](https://newyee1994.github.io)
+### [我的博客在这里 &rarr;](https://newyee1994.github.io)
 
 - - - - -
-> I'm a little snail learning python
+> Python小蜗牛就是我
 
-Hey，my name is **Newyee**（similar pronunciation).
-More details about me will be presented later.
+你好，我叫**牜燚**（音同）。
+关于我的更多内容稍后奉上...
 
 - - - - -
-### You can find me here:
+### 这儿可撩：
 - [GitHub](https://github.com/Newyee1994)
 - [CSDN](https://blog.csdn.net/Newyee)
 
 - - - - -
-### Ongoing projects...
-- [Get All Positions'S Details On Lagou Web With Anti-Anti-Crawl And Login-Free By Python With Selenium And Xpath](https://blog.csdn.net/Newyee/article/details/88577868)
-- [Get Articles On Netease Technology Channel And Store Them Into Mysql Database](https://blog.csdn.net/Newyee/article/details/88702399)
+### 正在做的项目...
+- [拉勾网 Python 爬虫：Selenium+Xpath 反反爬、免登录获取全部职位详情](https://blog.csdn.net/Newyee/article/details/88577868)
+- [网易 Python 爬虫：爬取网易科技频道文章存入 MySQL 数据库](https://blog.csdn.net/Newyee/article/details/88702399)

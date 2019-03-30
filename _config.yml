@@ -1,11 +1,11 @@
 # Site settings
 title: Newyee's Blog                # 博客网站标题
 SEOTitle: 牜燚 的博客 | Ny's Blog
-header-img: img/home-bg.jpg
+header-img: img/bg-home.jpg
 email: xxx@gmail.com
 description: "这里是 @Newyee 的个人博客，与你一起发现更大的世界。"
 keyword: "Newyee, Blog, 博客, Python"
-url: "https://newyee1994.github.io/"              # your host, for absolute URL
+url: "https://newyee1994.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -27,7 +27,7 @@ github_username:    Newyee1994
 highlighter: rouge
 permalink: pretty
 paginate: 10                        # 一页你准备放几篇文章
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README-zh.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
 timezone: CN  

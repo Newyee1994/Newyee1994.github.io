@@ -1,7 +1,3 @@
----
-title: This is my self-introduction
-layout: post
----
 > I'm a little snail learning python
 
 Hey，my name is **Newyee**（similar pronunciation).

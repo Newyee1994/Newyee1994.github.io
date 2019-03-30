@@ -1,11 +1,8 @@
----
-title: 个人简介
-layout: post
----
 > Python小蜗牛就是我
 
 你好，我叫**牜燚**（音同）。
 更多的自我介绍稍后奉上...
+
 - - - - -
 ### 这儿可撩：
 - [GitHub](https://github.com/Newyee1994)
