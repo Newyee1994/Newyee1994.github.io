@@ -2,10 +2,13 @@
 
 ### [View Live Newyee's Blog &rarr;](https://newyee1994.github.io)
 
+<br/>
+![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) [**Chinese README &rarr;**](https://newyee1994.github.io/README-zh.md)
+
 - - - - -
 > I'm a little snail learning python
 
-Hey，my name is **Newyee**（similar pronunciation).
+Hey，my name is **Newyee**（similar pronunciation).<br/>
 More details about me will be presented later.
 
 - - - - -

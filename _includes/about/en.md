@@ -1,6 +1,6 @@
 > I'm a little snail learning python
 
-Hey，my name is **Newyee**（similar pronunciation).
+Hey，my name is **Newyee**（similar pronunciation).<br/>
 More details about me will be presented later.
 
 - - - - -
