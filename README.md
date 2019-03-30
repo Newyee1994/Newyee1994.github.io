@@ -16,4 +16,4 @@ More details about me will be presented later.
 - - - - -
 ### Ongoing projects...
 - [By Python With Selenium And Xpath: Get All Positions'S Details On Lagou Web With Anti-Anti-Crawl And Login-Free](https://blog.csdn.net/Newyee/article/details/88577868)
-- [By Python: Get Articles On Netease Technology Channel And Store Them Into Mysql Database](https://blog.csdn.net/Newyee/article/details/88702399)
+- [By Python With Pymysql: Get Articles On Netease Technology Channel And Store Them Into Mysql Database](https://blog.csdn.net/Newyee/article/details/88702399)
