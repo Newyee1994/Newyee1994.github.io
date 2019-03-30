@@ -1,5 +1,5 @@
 // Tooltip Init
-// Unuse by Newyee since V1.6: Titles now display by default so there is no need for tooltip
+// Unuse since V1.6: Titles now display by default so there is no need for tooltip
 // $(function() {
 //     $("[data-toggle='tooltip']").tooltip();
 // });
@@ -7,7 +7,6 @@
 
 // make all images responsive
 /* 
- * Unuse by Newyee
  * actually only Portfolio-Pages can't use it and only post-img need it.
  * so I modify the _layout/post and CSS to make post-img responsive!
  */
