@@ -9,6 +9,9 @@ catalog: true
 tags:
     - 闲话
     - 笔记
+    - Python
+    - 爬虫
+    - 数据分析
 ---
 
 > “Yeah. It's on. ”
@@ -24,7 +27,6 @@ tags:
 &#8195;&#8195;做这个博客的用意主要在于把自己学习 Python 的心得笔记整理分享出来，一些项目写出来了就躺尸在本机里了，实在用处不大，希望通过博客能让更多人的看到，互相交流学习以促共进。
 <br/>
 <p align="center"><b>Let's get moving!</b></p><br/>
-<center>:bangbang: :octocat: :bangbang:</center>
 
 <p align="right">—— Newyee 9102 叁月</p>
 
