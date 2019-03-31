@@ -14,7 +14,7 @@ tags:
     - 原宝专属
 ---
 
-<p>注意：<strong>&uarr; </strong>这个下拉选项只有<strong>『前两个可用』</strong>！</p>
+<p>注意：<strong>&uarr;&uarr; </strong>这个下拉选项只有<strong>『前两个可用』</strong>！</p>
 - - - - -
 
 
@@ -42,7 +42,7 @@ tags:
     {{ about_fra | markdownify }}
 </div>
 
-
+<br><br>
 - - - - -
 >这是一个失败的项目。。。<br>
 > 吾对前端的知识了解甚少，想增加下拉菜单来展示分册的内容，然而只能替换2个模板中的语言选择功能实现两册内容的阅读。。。只修改 HTML 代码是不够的，应该还涉及到 js 等代码，以后再学习琢磨吧 :(<br>
