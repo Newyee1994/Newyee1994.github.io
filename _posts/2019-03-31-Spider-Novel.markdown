@@ -16,30 +16,30 @@ tags:
 
 <!-- Book No.0 -->
 <div class="zh post-container">
-    {% capture about_b1 %}{% includes posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiYouLingBinGuan.markdown %}{% endcapture %}
-    {{ about_b0 | markdownify }}
+    {% capture about_zh %}{% includes posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiYouLingBinGuan.markdown %}{% endcapture %}
+    {{ about_zh | markdownify }}
 </div>
 
 <!-- Book No.1 -->
 <div class="en post-container">
-    {% capture about_b1 %}{% includes posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiWuShan.markdown %}{% endcapture %}
-    {{ about_b1 | markdownify }}
+    {% capture about_en %}{% includes posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiWuShan.markdown %}{% endcapture %}
+    {{ about_en | markdownify }}
 </div>
 
 <!-- Book No.2 -->
 <div class="jp post-container">
-    {% capture about_b1 %}{% includes posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiMuSeSenLin.markdown %}{% endcapture %}
-    {{ about_b2 | markdownify }}
+    {% capture about_jp %}{% includes posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiMuSeSenLin.markdown %}{% endcapture %}
+    {{ about_jp | markdownify }}
 </div>
 
 <!-- Book No.3 -->
 <div class="fra post-container">
-    {% capture about_b1 %}{% includes posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiJueDiFanJi.markdown %}{% endcapture %}
-    {{ about_b3 | markdownify }}
+    {% capture about_fra %}{% includes posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiJueDiFanJi.markdown %}{% endcapture %}
+    {{ about_fra | markdownify }}
 </div>
 
 <!-- Book No.4 -->
 <div class="kor post-container">
-    {% capture about_b1 %}{% includes posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShi―ShuangYueXingKong.markdown %}{% endcapture %}
-    {{ about_b4 | markdownify }}
+    {% capture about_kor %}{% includes posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShi―ShuangYueXingKong.markdown %}{% endcapture %}
+    {{ about_kor | markdownify }}
 </div>
