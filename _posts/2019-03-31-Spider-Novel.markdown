@@ -7,7 +7,7 @@ author:       "Newyee"
 header-img:   "img/for-post/20190331-bg.jpg"
 header-mask:  0.3
 catalog:      true
-multilingual: true
+multilingual: false
 tags:
     - Python
     - 爬虫
