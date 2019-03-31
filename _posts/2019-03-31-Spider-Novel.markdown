@@ -1,5 +1,5 @@
 ---
-layout:       post_multi4
+layout:       post
 title:        "Python 爬取《查理九世》小说"
 subtitle:     "Python帮你女朋友畅快看小说"
 date:         2019-03-31 16:21:00
