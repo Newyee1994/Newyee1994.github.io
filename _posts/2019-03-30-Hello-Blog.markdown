@@ -4,7 +4,7 @@ title: "Welcome To My Blog"
 subtitle:   " \"Hello, World! Hello, Blog!\""
 date:       2019-03-30 13:31:00
 author:     "Newyee"
-header-img: "img/for-post/post-bg-20190329.jpg"
+header-img: "img/for-post/20190330-bg.jpg"
 catalog: true
 tags:
     - 闲话
