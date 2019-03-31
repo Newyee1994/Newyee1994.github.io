@@ -14,32 +14,8 @@ tags:
     - 原宝专属
 ---
 
-<!-- Book No.0 -->
-<div class="b0 post-container">
-    {% capture about_b1 %}{% include posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiYouLingBinGuan.markdown %}{% endcapture %}
-    {{ about_b0 | markdownify }}
-</div>
-
-<!-- Book No.1 -->
-<div class="b1 post-container">
-    {% capture about_b1 %}{% include posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiWuShan.markdown %}{% endcapture %}
-    {{ about_b1 | markdownify }}
-</div>
-
-<!-- Book No.2 -->
-<div class="b2 post-container">
-    {% capture about_b1 %}{% include posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiMuSeSenLin.markdown %}{% endcapture %}
-    {{ about_b2 | markdownify }}
-</div>
-
-<!-- Book No.3 -->
-<div class="b3 post-container">
-    {% capture about_b1 %}{% include posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiJueDiFanJi.markdown %}{% endcapture %}
-    {{ about_b3 | markdownify }}
-</div>
-
-<!-- Book No.4 -->
-<div class="b4 post-container">
-    {% capture about_b1 %}{% include posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShi―ShuangYueXingKong.markdown %}{% endcapture %}
-    {{ about_b4 | markdownify }}
-</div>
+[查理九世 - 幽灵宾馆](includes/posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiYouLingBinGuan.markdown)
+[查理九世 - 雾山](posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiWuShan.markdown)
+[查理九世 - 暮色森林](posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiMuSeSenLin.markdown)
+[查理九世 - 绝地反击](posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiJueDiFanJi.markdown)
+[查理九世 - 双月星空](posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShi―ShuangYueXingKong.markdown)
