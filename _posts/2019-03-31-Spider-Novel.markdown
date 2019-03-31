@@ -15,31 +15,31 @@ tags:
 ---
 
 <!-- Book No.0 -->
-<div class="b0 post-container">
+<div class="zh post-container">
     {% capture about_b1 %}{% includes posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiYouLingBinGuan.markdown %}{% endcapture %}
     {{ about_b0 | markdownify }}
 </div>
 
 <!-- Book No.1 -->
-<div class="b1 post-container">
+<div class="en post-container">
     {% capture about_b1 %}{% includes posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiWuShan.markdown %}{% endcapture %}
     {{ about_b1 | markdownify }}
 </div>
 
 <!-- Book No.2 -->
-<div class="b2 post-container">
+<div class="jp post-container">
     {% capture about_b1 %}{% includes posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiMuSeSenLin.markdown %}{% endcapture %}
     {{ about_b2 | markdownify }}
 </div>
 
 <!-- Book No.3 -->
-<div class="b3 post-container">
+<div class="fra post-container">
     {% capture about_b1 %}{% includes posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiJueDiFanJi.markdown %}{% endcapture %}
     {{ about_b3 | markdownify }}
 </div>
 
 <!-- Book No.4 -->
-<div class="b4 post-container">
+<div class="kor post-container">
     {% capture about_b1 %}{% includes posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShi―ShuangYueXingKong.markdown %}{% endcapture %}
     {{ about_b4 | markdownify }}
 </div>
