@@ -153,12 +153,13 @@ layout: default
     }
 </script>
 <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<!-- 去掉 Markdown 博文标题前的 # 号键位：去掉 anchors.options 中的 icon 属性值-'#'即可 -->
 <script>
     async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
         anchors.options = {
           visible: 'always',
           placement: 'right',
-          icon: '#'
+          icon: ''
         };
         anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
     })
