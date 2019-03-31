@@ -1,7 +1,7 @@
 {
-  "name": "Hux Blog",
-  "short_name": "Hux Blog",
-  "description": "About an engineer & designer who loves web.",
+  "name": "Newyee's Blog",
+  "short_name": Ny's Blog",
+  "description": "A little snail learning python",
   "icons": [{
     "src": "icons/128.png",
     "sizes": "128x128",
@@ -15,5 +15,5 @@
   "theme_color": "#000",
   "start_url": "/",
   "display": "standalone",
-  "orientation": "portrait"
+  "orientation": "contact"
 }
