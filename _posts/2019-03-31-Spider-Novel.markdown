@@ -14,15 +14,15 @@ tags:
     - 原宝专属
 ---
 >
-[查理九世 - 幽灵宾馆](includes/posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiYouLingBinGuan.markdown)
+[查理九世 - 幽灵宾馆](https://newyee1994.github.io/includes/posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiYouLingBinGuan.markdown)
 > 
-[查理九世 - 雾山](https://newyee1994.github.io/posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiWuShan.markdown)
+[查理九世 - 雾山](https://newyee1994.github.io/includes/posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiWuShan.markdown)
 > 
-[查理九世 - 暮色森林](https://newyee1994.github.io/posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiMuSeSenLin.markdown)
+[查理九世 - 暮色森林](https://newyee1994.github.io/includes/posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiZhiMuSeSenLin.markdown)
 > 
-[查理九世 - 绝地反击](https://newyee1994.github.io/posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiJueDiFanJi.markdown)
+[查理九世 - 绝地反击](https://newyee1994.github.io/includes/posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShiJueDiFanJi.markdown)
 > 
-[查理九世 - 双月星空](https://newyee1994.github.io/posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShi―ShuangYueXingKong.markdown)
+[查理九世 - 双月星空](https://newyee1994.github.io/includes/posts/Novel_ChaLiJiuShi/2019-03-31-ChaLiJiuShi―ShuangYueXingKong.markdown)
 
 
 
