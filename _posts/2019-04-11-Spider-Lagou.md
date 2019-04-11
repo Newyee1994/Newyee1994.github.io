@@ -40,7 +40,7 @@ tags:
 
 
 
->### URL示例
+### URL示例
 >**搜索页**示例：https://www.lagou.com/jobs/list_%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%B8%88?city=%E5%8C%97%E4%BA%AC&cl=false&fromSearch=true&labelWords=&suginput=<br/>
 >**详情页**示例：https://www.lagou.com/jobs/5496895.html
 
