@@ -13,9 +13,9 @@ github_repo:    "https://github.com/Newyee1994/Newyee1994.github.io.git"        
 
 #################################################
 # Sidebar settings
-sidebar: true                                   # 添加侧边栏 whether or not using Sidebar.
+sidebar: true                                   # 是否使用侧边栏 whether or not using Sidebar.
+sidebar-avatar: /img/GitHub-avatar.jpg          # 大头贴照片或头像 use absolute URL, seeing it's used in both `/` and `/about/`
 sidebar-about-description: "Python小蜗牛就是我<br> I'm a little snail learning python"
-sidebar-avatar: /img/GitHub-avatar.jpg          # 你的大头贴，请使用绝对地址 use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 #################################################
