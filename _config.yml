@@ -8,9 +8,14 @@ description:    "这里是 @Newyee 的个人博客，与你一起发现更大的
 keyword:        "Newyee, Blog, 博客, Python"
 url:            "https://newyee1994.github.io"  # your host, for absolute URL
 baseurl: ""                                     # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo:    "https://github.com/Newyee1994/Newyee1994.github.io.git"          # your code repository
 
-# Publish posts or collection documents with a future date.
-future: true
+
+#################################################
+# Sidebar settings
+sidebar: true                                   # 添加侧边栏 whether or not using Sidebar.
+sidebar-about-description: "Python小蜗牛就是我<br> I'm a little snail learning python"
+sidebar-avatar: /img/GitHub-avatar.jpg          # 你的大头贴，请使用绝对地址 use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 #################################################
@@ -18,9 +23,10 @@ future: true
 RSS: true
 # weibo_username:     xxx                         # 微博账号，底部链接会自动更新
 # zhihu_username:     xxx
-github_username:    Newyee1994
-twitter_username:   xxx
+github_username:      Newyee1994
+twitter_username:     xxx
 # facebook_username:  xxx
+# jianshu_username:   xxx
 # linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -29,11 +35,13 @@ twitter_username:   xxx
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
-paginate: 5                                   # 一页你准备放几篇文章
+paginate: 5                                   # 首页一页放几篇文章
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README-zh.md"]
 anchorjs: true                                # if you want to customize anchor. check out line:181 of `post.html`
-# If you have timezone issue (e.g. #68) in China, uncomment to use this:
-timezone: CN  
+# If you have timezone issue (e.g. #68) in China, uncomment to use this.
+timezone: Asia/Shanghai                       # CN
+# Publish posts or collection documents with a future date.
+future: true
 
 
 #################################################
@@ -61,6 +69,7 @@ kramdown:
 
 
 #################################################
+# 评论系统
 # # Disqus settings
 # disqus_username: Newyee
 
@@ -72,6 +81,16 @@ kramdown:
 # Netease settings
 netease_comment: true
 
+# # Gitalk
+# gitalk:
+  # enable: true                                              # 是否开启 Gitalk 评论
+  # clientID: f2c84e7629bb1446c1a4                            # 生成的 clientID
+  # clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    # 生成的 clientSecret
+  # repo: Newyee1994.github.io                                # GitHub Pages 仓库名称
+  # owner: Newyee1994                                         # github 用户名
+  # admin: Newyee1994
+  # distractionFreeMode: true                                 #是否启用类似FB的阴影遮罩
+
 
 #################################################
 # Analytics settings
@@ -80,20 +99,13 @@ ba_track_id: 319b5f96e29a468b5dec363a242ca518
 
 # # Google Analytics
 # ga_track_id: 'UA-49627206-1'                  # Format: UA-xxxxxx-xx
-# ga_domain: huangxuan.me
-
-
-#################################################
-# Sidebar settings
-sidebar: true                                   # 添加侧边栏 whether or not using Sidebar.
-sidebar-about-description: "Python小蜗牛就是我<br> I'm a little snail learning python"
-sidebar-avatar: /img/GitHub-avatar.jpg          # 你的大头贴，请使用绝对地址 use absolute URL, seeing it's used in both `/` and `/about/`
+# ga_domain: auto                               # 默认是 auto, 也可改成自定义购买的域名
 
 
 #################################################
 # Featured Tags
-featured-tags: true                             # whether or not using Feature-Tags
-featured-condition-size: 1                      # A tag will be featured if the size of it is more than this condition value
+featured-tags: true                             # whether or not using Feature-Tags # 是否使用首页标签
+featured-condition-size: 2                      # A tag will be featured if the size of it is more than this condition value    # 相同标签数量大于这个数，才会出现在首页
 
 
 #################################################
