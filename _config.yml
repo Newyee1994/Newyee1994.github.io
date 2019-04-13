@@ -78,18 +78,18 @@ kramdown:
 # # Share component is depend on Comment so we can NOT use share only.
 # duoshuo_share: true                           # set to false if you want to use Comment without Sharing
 
-# Netease settings
-netease_comment: true
+# # Netease settings
+# netease_comment: true
 
-# # Gitalk
-# gitalk:
-  # enable: true                                              # 是否开启 Gitalk 评论
-  # clientID: f2c84e7629bb1446c1a4                            # 生成的 clientID
-  # clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    # 生成的 clientSecret
-  # repo: Newyee1994.github.io                                # GitHub Pages 仓库名称
-  # owner: Newyee1994                                         # github 用户名
-  # admin: Newyee1994
-  # distractionFreeMode: true                                 #是否启用类似FB的阴影遮罩
+# Gitalk                                                    # https://github.com/gitalk/gitalk/blob/master/readme-cn.md
+gitalk:
+  enable: true                                              # 是否开启 Gitalk 评论
+  clientID: ab87d4c402610174a757                            # GitHub Application Client ID
+  clientSecret: a0e7a181a422e1f34476c23e5d3664c8471e6532    # GitHub Application Client Secret
+  repo: Newyee1994.github.io                                # GitHub repository 名称
+  owner: Newyee1994                                         # GitHub repository 所有者用户名
+  admin: Newyee1994                                         # GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)
+  distractionFreeMode: true                                 #是否启用全屏阴影遮罩
 
 
 #################################################
