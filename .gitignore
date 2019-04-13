@@ -1,6 +1,6 @@
 .Archive
+*.saved.bak
 .git
-.gitignore
 xxx
 _site
 _jekyll_serve.bat
