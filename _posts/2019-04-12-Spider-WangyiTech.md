@@ -2,7 +2,7 @@
 layout:       post
 title:        "Python 爬虫：爬取「网易」科技文章存入 MySQL 数据库"
 subtitle:     "同步 CSDN 博文"
-date:         2019-04-12 22:00:00
+date:         2019-04-12 22:00:00 +0800
 author:       "Newyee"
 header-img:   "img/for-post/20190412-bg.jpg"
 header-mask:  0.4
