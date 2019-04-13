@@ -5,7 +5,7 @@ subtitle:   " \"Hello, World! Hello, Blog!\""
 date:       2019-03-30 13:31:00 +0800
 author:     "Newyee"
 header-img: "img/for-post/20190330-bg.jpg"
-catalog: true
+catalog: fasle
 tags:
     - 闲话
     - 笔记
