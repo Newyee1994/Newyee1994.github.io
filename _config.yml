@@ -70,15 +70,15 @@ kramdown:
 
 #################################################
 # 评论系统
-# # Disqus settings
-# disqus_username: Newyee
-
-# # Duoshuo settings
+# # Duoshuo settings                            # 多说 于2017年6月1日正式关停服务，建议使用 Disqus 或 Gitalk
 # duoshuo_username: Newyee
 # # Share component is depend on Comment so we can NOT use share only.
 # duoshuo_share: true                           # set to false if you want to use Comment without Sharing
 
-# # Netease settings
+# # Disqus settings                             # https://disqus.com
+# disqus_username: Newyee
+
+# # Netease settings                            # 网易云跟帖 于2017年8月1日停止服务，建议使用 Disqus 或 Gitalk
 # netease_comment: true
 
 # Gitalk                                                    # https://github.com/gitalk/gitalk/blob/master/readme-cn.md
