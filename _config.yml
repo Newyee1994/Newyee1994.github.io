@@ -7,7 +7,7 @@ email:          Newyee163@163.com
 description:    "这里是 @Newyee 的个人博客，与你一起发现更大的世界。"
 keyword:        "Newyee, Blog, 博客, Python"
 url:            "https://newyee1994.github.io"  # your host, for absolute URL
-baseurl: ""                                     # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl:        ""                              # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo:    "https://github.com/Newyee1994/Newyee1994.github.io.git"          # your code repository
 
 

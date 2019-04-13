@@ -1,18 +1,24 @@
 <!-- Gitalk 评论框 start  -->
+
 <!-- 引入 Gitalk 评论插件  -->
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 <!-- or -->
 <!-- <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css"> -->
 <!-- <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script> -->
+
 <!-- 添加一个容器 -->
 <div id="gitalk-container"></div>
+
+<!-- <!-- 引入一个生成md5的js，用于对location.pathname的id值进行处理、防止其过长 --> -->
+<!-- <script src="{{ site.baseurl }}/js/md5.min.js"></script> -->
+
 <!-- Javascript 代码生成 Gitalk 插件 -->
 <script type="text/javascript">
     var gitalk = new Gitalk({
-        <!-- id: md5(location.pathname), -->
-        <!-- gitalk的id是需是唯一的，一般用当前时间戳。不要写死、也不要写成page.title（文章标题过长会出现Error: Not Found.错误） -->
-        id: '{{ page.date }}',
+        <!-- id: md5(location.pathname),                  // location.pathname -->
+        <!-- gitalk的id是需是唯一的，一般用当前时间戳即可。不要写死、也不要写成page.title（文章标题过长会出现Error: Not Found.错误） -->
+        id: '{{ page.date }}',                            // Ensure uniqueness and length less than 50
         clientID: '{{site.gitalk.clientID}}',
         clientSecret: '{{site.gitalk.clientSecret}}',
         repo: '{{site.gitalk.repo}}',
@@ -23,4 +29,5 @@
     })
     gitalk.render('gitalk-container');
 </script>
+
 <!-- Gitalk 评论框 end -->
