@@ -90,7 +90,7 @@ gitalk:
   repo: Newyee1994.github.io                                # GitHub repository 名称
   owner: Newyee1994                                         # GitHub repository 所有者用户名
   admin: Newyee1994                                         # GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)
-  distractionFreeMode: true                                 #是否启用全屏阴影遮罩
+  distractionFreeMode: true                                 # 是否启用全屏阴影遮罩 Facebook-like distraction free mode
 
 
 #################################################
