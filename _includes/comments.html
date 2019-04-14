@@ -16,16 +16,22 @@
 <!-- Javascript 代码生成 Gitalk 插件 -->
 <script type="text/javascript">
     var gitalk = new Gitalk({
-        <!-- gitalk的id是需是唯一的，一般用当前时间戳即可。不要写死、也不要写成page.title（文章标题过长会出现Error: Not Found.错误） -->
-        <!-- id: '{{ page.date }}',                       // Maybe its length more than 50 -->
-        id: md5(location.pathname),                       // Ensure uniqueness and length less than 50
+        <!-- gitalk的id是页面的唯一标识，长度必须小于50。不要写死、也不要写成page.title（文章标题过长会出现Error: Not Found.错误） -->
+        <!-- id: '{{ page.date }}',                            // 一般用当前时间戳即可-->
+        <!-- id: location.pathnam,                             // Maybe its length more than 50 -->
+        <!-- id: md5(location.pathname),                       // Ensure uniqueness and length less than 50 -->
+        <!-- MD5摘要url的做法虽然更优雅，但是会使得 label 变成一串没有意义的代码 -->
+        id: (location.pathname).split("/").pop().substring(0, 49),        // 截取前50个字符串，避免报错且使 label 有意义便于查看
         clientID: '{{site.gitalk.clientID}}',
         clientSecret: '{{site.gitalk.clientSecret}}',
         repo: '{{site.gitalk.repo}}',
         owner: '{{site.gitalk.owner}}',
         admin: ['{{site.gitalk.admin}}'],
         distractionFreeMode: {{site.gitalk.distractionFreeMode}},
-        labels: ['Gitalk'],
+        createIssueManually: {{site.gitalk.createIssueManually}},
+        perPage: {{site.gitalk.perPage}},
+        pagerDirection: '{{site.gitalk.pagerDirection}}',
+        labels: ['Gitalk'],                                               // GitHub issue 的标签
     })
     gitalk.render('gitalk-container');
 </script>
