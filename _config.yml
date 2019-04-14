@@ -91,7 +91,7 @@ gitalk:
   owner: Newyee1994                                         # GitHub repository 所有者用户名
   admin: Newyee1994                                         # GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)
   distractionFreeMode: true                                 # 无干扰模式：类似 Facebook 评论框的全屏遮罩效果
-  createIssueManually: true                                 # true: 手动初始化创建 issue; false: admin 登录用户打开页面会自动创建
+  createIssueManually: false                                # false: admin 登录用户打开页面会自动创建 issue; true: 手动初始化创建 issue
   perPage: 5                                                # 每次加载的数据大小，最多 100
   pagerDirection: last                                      # 评论排序方式：last为按评论创建时间倒叙，first为按创建时间正序
 
