@@ -4,8 +4,8 @@ title:        "Python 爬虫提速：【多进程、多线程、协程+异步】
 subtitle:     "同步 CSDN 博文"
 date:         2019-04-28 23:30:00 +0800
 author:       "Newyee"
-header-img:   "img/for-post/20190418-bg.jpg"
-header-mask:  0.4
+header-img:   "img/for-post/20190428-bg.jpg"
+header-mask:  0.5
 catalog:      true
 tags:
     - Python
@@ -36,8 +36,8 @@ tags:
   - 举个例子，打电话时就是同步通信，发短息时就是异步通信。
 
 ## 测试环境
-进行对比测试之前，我们先来创建一个合适的实验环境：
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**模拟一个需要等待一定时间才可以获取返回结果的网页。**
+进行对比测试之前，我们先来创建一个合适的实验环境：<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**模拟一个需要等待一定时间才可以获取返回结果的网页。**<br>
 如果直接用百度、CSDN 等站点的话，一方面响应太快、难以看出各种方法的差距，另一方面响应速度会受网速影响、每次发送请求获取响应所需的时间不完全一致导致重复实验结果差距较大，所以在此用 Flask 模拟一个本地慢速服务器。
 `flask_server.py` 代码如下：
 `flask_server.py` 代码如下：
