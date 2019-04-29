@@ -49,7 +49,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    time.sleep(3)    		# 休眠 3 秒再返回结果
+    time.sleep(3)    	    # 休眠 3 秒再返回结果
     return 'Hello!'
 
 if __name__ == '__main__':
