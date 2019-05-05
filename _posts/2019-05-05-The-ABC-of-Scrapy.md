@@ -2,7 +2,9 @@
 layout:       post
 title:        "Python 爬虫：Scrapy 框架入门初探【 Xpath 改写】"
 subtitle:     "同步 CSDN 博文"
-date:         2019-05-05 21:40:00 +0800
+date:         2019-05-05 22:10:00 +0800
+header-img:   "img/for-post/20190505-bg.jpg"
+header-mask:  0.3
 author:       "Newyee"
 catalog:      true
 tags:
