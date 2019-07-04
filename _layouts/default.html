@@ -26,6 +26,58 @@
 <script type="text/javascript" color="238,205,205" opacity='0.7' zIndex="-2" count="99" src="{{ site.baseurl }}/js/canvas-nest.min.js"></script>
 
 
+<!-- 返回顶部开始 -->
+<style>
+    p#back-to-top{
+        position:fixed;
+        bottom:30px;
+        right:220px;
+    }
+    p#back-to-top a span{
+        background:url({{ site.baseurl }}/img/backTop.png) no-repeat center center;
+        z-index:-100;
+        border:1px solid #d6d6d6;
+        border-radius:6px;
+        display:block;
+        height:50px;
+        width:50px;
+        margin-bottom:5px;
+        opacity:.8;
+    }
+    #back-to-top a:hover span{
+        background:#f0f0f0 url({{ site.baseurl }}/img/backTop.png) no-repeat center center;
+        opacity:1;
+    }
+</style>
+
+<p id="back-to-top">
+    <a href="#top" title="返回顶部">
+        <span>
+            <i class="chevron-up" aria-hidden="true"></i>
+        </span>
+    </a>
+</p>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#back-to-top").hide();
+        $(function () {
+            $(window).scroll(function(){
+                if ($(window).scrollTop()>800){
+                    $("#back-to-top").fadeIn(500);
+                }else{
+                    $("#back-to-top").fadeOut(500);
+                }
+            });
+            $("#back-to-top").click(function(){
+                $('body,html').animate({scrollTop:0},500);
+                return false;
+            });
+        });
+    });
+</script>
+<!-- 返回顶部结束 -->
+
 </body>
 
 </html>
