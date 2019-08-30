@@ -1,5 +1,5 @@
 ---
-layout:       post_PosterGirl
+layout:       post
 title:        "Poster Girl"
 subtitle:     "Test Demo"
 date:         2019-08-29 23:09:00 +0800
@@ -7,6 +7,7 @@ author:       "Newyee"
 header-img:   "img/for-post/20190331-bg.jpg"
 header-mask:  0.1
 catalog:      false
+live2d:       true
 tags:
     - 闲话
 ---

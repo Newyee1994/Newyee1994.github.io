@@ -24,7 +24,7 @@ function loadWidget(waifuPath, apiPath) {
 				window.ASTEROIDSPLAYERS.push(new Asteroids());
 			} else {
 				$.ajax({
-					// url: "/live2d-widget/asteroids.js",
+					// url: "/live2d/asteroids.js",
 					url: "asteroids.js",
 					dataType: "script",
 					cache: true
