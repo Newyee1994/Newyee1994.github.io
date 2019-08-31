@@ -5,7 +5,7 @@ try {
         $.ajax({url: "/live2d/live2d.js", dataType:"script", cache: true, success: function() {
             /* 可直接修改部分参数 */
             live2d_settings['hitokotoAPI']     = "hitokoto.cn";                  // 一言 API
-            live2d_settings['modelAPI']        = "//live2d.fghrsh.net/api/";     // 原作者或自建 API
+            live2d_settings['modelAPI']        = "//newyee1994.github.io/live2d/live2d_api/";     // 原作者或自建 API
             live2d_settings['modelId']         = 5;             // 默认模型 ID
             live2d_settings['modelTexturesId'] = 1;             // 默认材质 ID
             live2d_settings['modelStorage']    = false;         // 不储存模型 ID
