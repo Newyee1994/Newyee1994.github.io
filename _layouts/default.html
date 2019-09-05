@@ -77,6 +77,31 @@
 </script>
 <!-- 返回顶部结束 -->
 
+
+<!-- 页面滚动比例顶部进度条 Start -->
+<style type="text/css">
+    #header-process{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 2.5px;
+        background-color: #4285f4;
+    }
+</style>
+<script type="text/javascript">
+    window.onscroll = function(){ 
+        var clienth = document.documentElement.clientHeight; //屏幕高度
+        var scrollt = document.documentElement.scrollTop + document.body.scrollTop; //滚动条滚动高度
+        var allHeight = Math.max(document.documentElement.scrollHeight, document.documentElement.clientHeight); //整个页面高度
+        // 计算比例
+        var heightRatio = scrollt/(allHeight-clienth)*100;
+        document.getElementById('header-process').style='width:'+heightRatio+'%';
+    }
+</script>
+<div id="header-process"></div>
+<!-- 页面滚动比例顶部进度条 End -->
+
+
 </body>
 
 </html>
