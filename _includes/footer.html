@@ -60,7 +60,6 @@
 {% endif %}
 
 
-
 <!-- live2d Poster Girl -->
 <!-- 实现拖动效果，需引入 JQuery UI -->
 <script src="{{ "/js/jquery-ui.min.js " | prepend: site.baseurl }}"></script>
@@ -68,6 +67,24 @@
 {% if page.live2d %}
 <script src="{{ site.baseurl }}/live2d/autoload.js"></script>
 {% endif %}
+
+
+<!-- fancybox -->
+<script type="text/javascript" src="{{ site.baseurl }}/plugins/fancybox/source/jquery.fancybox.pack.js?v=2.1.7"></script>
+<script>
+    // 给图片添加链接
+    $(document).ready(function() {
+        $("p img").each(function() {
+        var strA = "<a id='yourid' href='" + this.src + "'></a>";
+        $(this).wrapAll(strA);
+        });
+    });
+    // fancybox
+    $("#yourid").fancybox({
+        openEffect    : 'elastic',
+        closeEffect   : 'elastic',
+    });
+</script>
 
 
 <!-- async load function -->
