@@ -119,12 +119,12 @@ https://github.com/kitian616/jekyll-TeXt-theme
 </div>
 
 <!-- script pointing to simple-jekyll-search.js -->
-<script src="{{ site.baseurl }}/js/simple-jekyll-search.min.js"></script>
+<script src="{{ site.baseurl }}/plugins/search/simple-jekyll-search.min.js"></script>
 <script type="text/javascript">
     SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.baseurl }}/search.json',
+        json: '{{ site.baseurl }}/plugins/search/search.json',
             searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
             noResultsText: 'No results found T_T',
             limit: 10,
