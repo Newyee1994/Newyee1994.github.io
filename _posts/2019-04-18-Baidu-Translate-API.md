@@ -1,4 +1,4 @@
-﻿---
+---
 layout:       post
 title:        "Python 小工具：调用「百度翻译 API」实现英汉互译及多语言翻译"
 subtitle:     "同步 CSDN 博文"
@@ -35,9 +35,9 @@ tags:
 - 首先需要去[百度翻译开放平台](http://api.fanyi.baidu.com/api/trans/product/index)注册为开发者、申请 **通用翻译 API** 的 **API Key**。
 - 通过 HTTP 接口调用通用翻译 API，传入待翻译的内容，并指定要翻译的源语言和目标语言种类，就可以得到相应的翻译结果。
 - 向通用翻译 API HTTP 地址：http://api.fanyi.baidu.com/api/trans/vip/translate 通过POST或GET方法发送下列字段即可访问服务：
-![字段](https://img-blog.csdnimg.cn/20190418153608239.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05ld3llZQ==,size_16,color_FFFFFF,t_70)
+![字段](https://img-blog.csdnimg.cn/20190418153608239.png)
 - 语言列表：（源语言语种不确定时可设置为 auto，目标语言语种不可设置为 auto）
-![语言列表](https://img-blog.csdnimg.cn/20190418160439888.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05ld3llZQ==,size_16,color_FFFFFF,t_70)
+![语言列表](https://img-blog.csdnimg.cn/20190418160439888.png)
 - 其中， `sign` 是使用 MD5 算法生成的一段长度为 32位的字符串，具体方法如下：
   - 1.准备好请求参数中的 appid、q、salt 以及平台分配的密钥；
   - 2.按照 `appid+q+salt+密钥` 的顺序拼接得到字符串1；
