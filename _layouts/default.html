@@ -26,7 +26,7 @@
 <script type="text/javascript" color="238,205,205" opacity='0.7' zIndex="-2" count="99" src="{{ site.baseurl }}/js/canvas-nest.min.js"></script>
 
 
-<!-- 返回顶部开始 -->
+<!-- Back to Top Start -->
 <style>
     p#back-to-top{
         position:fixed;
@@ -60,6 +60,9 @@
 <script>
     $(document).ready(function(){
         $("#back-to-top").hide();
+        if ($(window).width()<992) {
+            return false;
+        }
         $(function () {
             $(window).scroll(function(){
                 if ($(window).scrollTop()>600){
@@ -75,10 +78,17 @@
         });
     });
 </script>
-<!-- 返回顶部结束 -->
+<!-- <script type="text/javascript"> -->
+    <!-- function(){ -->
+        <!-- if (document.documentElement.clientWidth<992) { -->
+            <!-- document.getElementById("back-to-top").style.display = "none"; -->
+        <!-- } -->
+    <!-- } -->
+<!-- </script> -->
+<!-- Back to Top End -->
 
 
-<!-- 页面滚动比例顶部进度条 Start -->
+<!-- ProgressBar Start -->
 <style type="text/css">
     #header-process{
         position: fixed;
@@ -90,16 +100,15 @@
 </style>
 <script type="text/javascript">
     window.onscroll = function(){ 
-        var clienth = document.documentElement.clientHeight; //屏幕高度
-        var scrollt = document.documentElement.scrollTop + document.body.scrollTop; //滚动条滚动高度
-        var allHeight = Math.max(document.documentElement.scrollHeight, document.documentElement.clientHeight); //整个页面高度
-        // 计算比例
+        var clienth = document.documentElement.clientHeight;
+        var scrollt = document.documentElement.scrollTop + document.body.scrollTop;
+        var allHeight = Math.max(document.documentElement.scrollHeight, document.documentElement.clientHeight);
         var heightRatio = scrollt/(allHeight-clienth)*100;
         document.getElementById('header-process').style='width:'+heightRatio+'%';
     }
 </script>
 <div id="header-process"></div>
-<!-- 页面滚动比例顶部进度条 End -->
+<!-- ProgressBar End -->
 
 
 </body>
