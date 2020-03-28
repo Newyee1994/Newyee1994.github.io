@@ -25,9 +25,17 @@ multilingual: true
 </div>
 
 
+{% if site.gitalk.enable %}
 <!-- 添加 Gitalk 评论系统 -->
 <link rel="stylesheet" href="{{ site.baseurl }}/css/gitalk.css">
 <script src="{{ site.baseurl }}/js/gitalk.min.js"></script>
+
+<!-- Gitalk 评论框 start  -->
+<div class="comment">
+    {% include comments.html %}
+</div>
+<!-- Gitalk 评论框 end -->
+{% endif %}
 
 
 {% if site.disqus_username %}
@@ -52,13 +60,4 @@ multilingual: true
     })();
 </script>
 <!-- disqus 公共JS代码 end -->
-{% endif %}
-
-
-{% if site.gitalk.enable %}
-<!-- Gitalk 评论框 start  -->
-<div class="comment">
-    {% include comments.html %}
-</div>
-<!-- Gitalk 评论框 end -->
 {% endif %}
