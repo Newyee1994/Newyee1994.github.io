@@ -36,7 +36,7 @@ csdn_username:        Newyee
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
-paginate: 5                                   # 首页一页放几篇文章
+paginate: 8                                   # 首页一页放几篇文章
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README-zh.md"]
 anchorjs: true                                # if you want to customize anchor. check out line:181 of `post.html`
 # # If you have timezone issue (e.g. #68) in China, uncomment to use this.
@@ -84,7 +84,7 @@ kramdown:
 
 # Gitalk                                                    # https://github.com/gitalk/gitalk/blob/master/readme-cn.md
 gitalk:
-  enable: true                                              # 是否开启 Gitalk 评论
+  enable: false                                             # 是否开启 Gitalk 评论
   clientID: ab87d4c402610174a757                            # GitHub Application Client ID
   clientSecret: a0e7a181a422e1f34476c23e5d3664c8471e6532    # GitHub Application Client Secret
   repo: Newyee1994.github.io                                # GitHub repository 名称
