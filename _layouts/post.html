@@ -9,9 +9,11 @@ layout: default
 <!-- Post Header -->
 {% include intro-header.html type='post' %}
 
-<!-- 添加 Gitalk 评论系统 -->
-<link rel="stylesheet" href="{{ site.baseurl }}/css/gitalk.css">
-<script src="{{ site.baseurl }}/js/gitalk.min.js"></script>
+{% if site.gitalk.enable %}
+    <!-- 添加 Gitalk 评论系统 -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/gitalk.css">
+    <script src="{{ site.baseurl }}/js/gitalk.min.js"></script>
+{% endif %}
 
 
 <!-- Post Content -->
@@ -77,7 +79,7 @@ layout: default
                     {% include comments.html %}
                 </div>
                 <!-- Gitalk 评论框 end -->
-               {% endif %}
+                {% endif %}
 
             </div>  
 

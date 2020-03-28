@@ -76,7 +76,7 @@ kramdown:
 # # Share component is depend on Comment so we can NOT use share only.
 # duoshuo_share: true                           # set to false if you want to use Comment without Sharing
 
-# # Disqus settings                             # https://disqus.com
+# # Disqus settings                             # https://disqus.com 无法访问
 # disqus_username: Newyee
 
 # # Netease settings                            # 网易云跟帖 于2017年8月1日停止服务，建议使用 Disqus 或 Gitalk
