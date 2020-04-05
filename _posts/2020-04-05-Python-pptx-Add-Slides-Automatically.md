@@ -41,7 +41,6 @@ tags:
 9. 访问和修改元素属性，例如标题、主题等
 10. ……（更多功能开发ing）
 
-
 ## python-pptx 安装
 python-pptx 托管在 PyPI 上，可以很方便地用 pip 安装：
 ```python
