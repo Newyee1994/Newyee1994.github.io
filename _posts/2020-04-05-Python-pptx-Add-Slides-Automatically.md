@@ -170,7 +170,9 @@ if __name__ == '__main__':
     wpt = WritePowerPoint('news.pptx', 'news.xlsx', 'News Briefs', '2020/4/5')
     wpt.run()
 ```
+
 代码运行后便可得到若干页的 ```news.pptx```：
 ![运行结果1](https://img-blog.csdnimg.cn/20200405215321432.png#pic_center)
 ![运行结果2](https://img-blog.csdnimg.cn/20200405214749346.png#pic_center)
+
 代码中还可以加入更多的文本格式设置代码，美化幻灯片：![幻灯片示例2](https://img-blog.csdnimg.cn/2020040521355628.png#pic_center =700x550)
