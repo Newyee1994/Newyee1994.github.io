@@ -19,7 +19,7 @@ tags:
 随后要基于上述数据制作 PPT 报告，几十页的幻灯片都是下图的格式：![幻灯片示例1](https://img-blog.csdnimg.cn/20200405202042970.png#pic_center =700x550)
 > Well, my coding fingers got quite itchy.
 
-这种繁琐的手动制作幻灯片还是交给 Python 来自动完成吧！Python 中已有第三方库很好地支持 PowerPoint :point_down:
+这种繁琐的手动制作幻灯片还是交给 Python 来自动完成吧！Python 中已有第三方库很好地支持 PowerPoint ！
 
 ## python-pptx 介绍
 ```python-pptx```是用于创建和更新 **PowerPoint**（.pptx）文件的 Python 库。
