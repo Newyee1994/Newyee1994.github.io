@@ -111,6 +111,43 @@
 <!-- ProgressBar End -->
 
 
+<!-- Loading Start -->
+<div class="loader-wrapper">
+    <div class='loader-ring'>
+        <div class='loader-ring-light'></div>
+        <div class='loader-ring-track'></div>
+    </div>
+    <div class="loader-img">
+        <img src="{{ site.baseurl }}/img/loading.gif" />
+        <span style="color:white"><span class="self_point"></span></span>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        len = 1;
+        setInterval(function () {
+            inde = "";
+            if (len > 6) {
+                len = 1;
+            }
+            for (var i = 0; i < len; i++) {
+                inde += "喵";
+            }
+            $(".loader-img .self_point").text(inde);
+            len++;
+        }, 200)
+    });
+</script>
+
+<script>
+    $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+    });
+</script>
+<!-- Loading End -->
+
+
 </body>
 
 </html>
