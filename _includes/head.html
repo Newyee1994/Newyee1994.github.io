@@ -73,4 +73,28 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/plugins/music/APlayer.min.css">
     <script src="{{ site.baseurl }}/plugins/music/APlayer.min.js"></script>
 
+    <!-- Chatra {literal} -->
+    <script>
+        window.ChatraSetup = {
+            buttonPosition: window.innerWidth < 1024?
+                'bc':
+                'rt',
+            buttonSize: 45,
+            colors: {
+                buttonText: '#ffffff',
+                buttonBg: '#3b99fc',
+            },
+        };
+        (function(d, w, c) {
+            w.ChatraID = 'vYyr4g7ALAyRPoyx9';
+            var s = d.createElement('script');
+            w[c] = w[c] || function() {
+                (w[c].q = w[c].q || []).push(arguments);
+            };
+            s.async = true;
+            s.src = 'https://call.chatra.io/chatra.js';
+            if (d.head) d.head.appendChild(s);
+        })(document, window, 'Chatra');
+    </script>
+    <!-- /Chatra {/literal} -->
 </head>
