@@ -2,7 +2,7 @@
 
 ### [View Live Newyee's Blog &rarr;](https://newyee1994.github.io)
 
-![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) [Chinese README &rarr;](https://newyee1994.github.io/README-zh.md)
+![cn](https://github.com/Newyee1994/Newyee1994.github.io/blob/master/img/ChinaFlag.png) [Chinese README &rarr;](https://github.com/Newyee1994/Newyee1994.github.io/blob/master/README_CN.md)
 
 - - -
 > 🐌 I'm a little snail learning python
