@@ -138,12 +138,15 @@
             len++;
         }, 200)
     });
-</script>
 
-<script>
     $(window).on("load",function(){
         $(".loader-wrapper").fadeOut("slow");
     });
+
+    window.onbeforeunload = function(){
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+    }
 </script>
 <!-- Loading End -->
 
